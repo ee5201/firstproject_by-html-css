@@ -62,7 +62,7 @@ background: radial-gradient(circle, rgba(217,174,238,1) 0%, rgba(148,219,233,1) 
   width: 14em;
   height: 14em;
   border-radius: 20%;
-  background-image: url(../../images/famiily-photo.jpg);
+  background-image: url(../images/famiily-photo.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
