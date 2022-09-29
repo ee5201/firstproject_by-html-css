@@ -1,0 +1,71 @@
+
+.main__section{
+  width: 100vw;
+  height: 50vh;
+  scroll-snap-type: y proximity;
+  position: relative;
+
+}
+.main__section-img{
+  display: flex;
+  height: 50vh;
+  background-image: url(../../images/jeshoots-com-9n1USijYJZ4-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  scroll-snap-align: start;
+
+}
+.main__section-box{
+  position: absolute;
+  height: 50vh;
+  width: 50vw;
+  margin-left: 380px;
+  margin-top: 6em;
+  text-align: center;
+}
+
+.main__section-title{
+  font-size: 50px;
+  font-weight: bold;
+  
+}
+.main__section-item{
+  display: inline-block;
+  position: relative;
+  font-size: 3em;
+  right: 0.7em;
+}
+
+@media  (max-width: 768px){
+  .main__section-img{
+    display: flex;
+    position: relative;
+  }
+
+  .main__section-title{
+    position: relative;
+    font-size: 30px;
+    right: 7em;
+  }
+  .main__section-icon{
+    display: inline;
+    position: relative;
+    font-size: 10px;
+    padding: 2em;
+    bottom: 4em;
+    right: 20em;
+  }
+ 
+ 
+
+}
+@media  (min-width: 769px){
+.main__section-item a{
+  display: inline-block;
+  position: relative;
+}
+.main__section-item{
+  padding: 0 0.8em;
+  
+}
+}

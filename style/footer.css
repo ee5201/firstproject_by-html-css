@@ -1,0 +1,29 @@
+footer{
+  height: 20em;
+}
+.footer__section{
+  display: flex;
+  border-top: 1px solid black ;
+  justify-content:first baseline;
+  justify-content: center;
+  font-size: 14px;
+  gap: 4em;
+}
+.footer__section-word {
+  display: inline-block;
+}
+.footer__section-item{
+  list-style: none;
+  text-align: center;
+  padding-bottom: 1em;
+}
+#center{
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+@media screen and (max-width: 768px){
+  .footer__section-item{
+    font-size: 10px;
+  }
+}

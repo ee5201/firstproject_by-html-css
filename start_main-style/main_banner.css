@@ -1,0 +1,78 @@
+
+.main__banner{
+  display:inline-flex;
+  position: relative;
+  height: 50vh;
+  width: 100vw;
+  background-image: url(../../images/beach.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+
+}
+
+.main__profile-box{
+  display: flex;
+  position: absolute;
+  width: 17em;
+  height: 17em;
+  border-radius: 100%;
+  background-color: white;
+  border:none;
+  overflow: hidden;
+  margin-left: 6em; margin-top: 8em;
+  background-image: url(../../images/profile.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-right: 10em;
+}
+.main__profile-detail{
+  display: flex;
+  position: absolute;
+  margin-top: 20em;
+}
+.detail-item{
+  display: inline-flex;
+  position: absolute;
+  margin-top: 7em;
+  margin-right: 100em;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: url(../font/Kanit/Kanit-Bold.ttf);
+  line-height: 2em;
+}
+.profile__camera{
+  width: 1.4em;
+  height: 1.4em;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin-left:3em;
+  font-size: 30px;
+  color: black;
+  border: none;
+  background-color: rgb(167, 163, 163);
+  border-radius: 100%;
+  margin-top: 11em; margin-left: 10em;
+
+}
+.profile__change{
+  width: 12em;
+  height: 3em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  border: none;
+  border-radius: 10px;
+  background-color: aliceblue;
+  right: 0;
+  margin-top: 22em;
+  margin-right: 1em;
+  cursor: pointer;
+}
+.profile__change-camera{
+  margin-right: 10px;
+}

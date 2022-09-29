@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'news';
+  src: url(../../font/THE_Nyuseusokbo.ttf) format('truetype');
+}
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+.main{
+  position: relative;
+  display: flex;
+  font-weight: bold;
+
+}
+.calender__header{
+  display: flex;
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 40px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: inherit;
+  width: 250px;
+  height: 70px;
+}
+.calender{
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 200vw;
+  height: 100vh;
+  margin-left: 50%;
+  margin-top: 40%;
+  transform: translate(-50%,-55%);
+  font-size: 30px;
+}
+td{
+  border-radius: 20px;
+}
+h1{
+  font-size: 40px;
+}
+.day{
+  border: 1px solid black;
+}
+.first,.calender__box{
+  position: relative;
+  width: 100px;
+  height: 200px;
+  border: 1px solid black;
+  margin: -2px;
+}
+.number{
+  width: 6em;
+  margin-top: -50px;
+  border-bottom:1px solid black ;
+}
+.first{
+  justify-content: right;
+  align-items: right;
+  justify-items: right;
+  column-span: "5";
+}
+.meeting__green{
+  font-size: 18px;
+  background-color: green;
+}
+.meeting__blue{
+  font-size: 18px;
+  background-color: blue;
+}
+#red{
+  color: red;
+}
+#blue{
+  color: blue;
+}
+
+@media screen and (max-width:768px) {
+  .main{
+    position: relative;
+    flex-direction: column ;
+  }
+  .calender{
+    position: absolute;
+    flex-direction: column;
+    font-size: 12px;
+    width: 10em;
+    height: 1em;
+    margin-top: 120em;
+    right: 32em;
+  }
+  table{
+    height: 200px;
+  }
+  .meeting__green,.meeting__blue{
+    font-size: 8px;
+  }
+  .calender__header{
+    margin-top: 83em;
+    right: 10em ;
+  }
+  #wday{
+    font-size: 18px;
+  }
+  .first,.calender__box{
+    height: 70px;
+    overflow: hidden;
+  }
+  
+}

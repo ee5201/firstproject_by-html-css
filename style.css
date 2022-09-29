@@ -1,0 +1,45 @@
+@import url(./style/header.css);
+@import url(./style/main_section1.css);
+@import url(./style/main_section2.css);
+@import url(./style/main_section3.css);
+@import url(./style/main_section4.css);
+@import url(./style/footer.css);
+
+
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  min-height: 400vh;
+}
+em{
+  color: #FF7BB0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h1,.main__word-logo{
+  padding: 0;
+  margin: 0;
+}
+li{
+  text-decoration: none;
+  color:inherit
+}
+/* 스크린리더용 */
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+li{
+  list-style: none;
+  text-decoration: none;
+}

@@ -1,0 +1,122 @@
+.select__option{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 1;
+
+}
+.select__box2{
+  display: flex;
+  margin-top: 0.2em;
+
+}
+.select__box{
+  display: flex;
+  position: relative;
+  width: 80vw;
+  height: 3em;
+  margin-top: 0.2em;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: left;
+}
+.select-item{
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 5em; 
+  justify-content: left;
+  cursor: pointer;
+}
+.select-item:first-child{
+  margin-left: 2em;
+}
+img{
+  font-size: 30px;
+}
+.select__icons{
+  width: 35px;
+}
+.select-item-right{
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 2em;
+  cursor: pointer;
+}
+.select-item-right:first-child{
+  margin-left: 2.7em;
+}
+.write__diary{
+  width: 100vw;
+  height: 200vh;
+  background-image: url(../../../images/paper.jpg);
+  background-repeat: no-repeat;
+  background-position:top;
+  background-size: cover;
+}
+.write__diary-text{
+  display: flex;
+  position: absolute;
+  width: 49.7vw;
+  height: 121vh;
+  text-align: center;
+  margin-left: 18.9em; margin-top: 17.3em;
+  background-color: inherit;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  overflow: hidden;
+  background-image: repeating-linear-gradient(black, black 1px, white 0.5px, white 1.24em);
+}
+.select-item-submit{
+  display: inline-flex;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  margin-left: 5em ;
+  margin-top: 0.2em;
+}
+.item-submit{
+  display: flex;
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+
+}
+@media screen and (max-width: 768px){
+  .write__diary-text{
+    display: flex;
+    position: absolute;
+    width: 81vw;
+    height: 90vh;
+    text-align: center;
+    margin-left: 3.2em; margin-top: 11.8em;
+    background-color: inherit;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    overflow: hidden;
+    background-image: repeating-linear-gradient(black, black 1px, white 0.5px, white 1.24em);
+  }
+  .select-item,.select-item-right{
+    font-size: 10px;
+  }
+  .select-item-submit{
+    position: absolute;
+    font-size: 12px;
+    margin-top: 5em;
+    right: 5em;
+  }
+
+}
