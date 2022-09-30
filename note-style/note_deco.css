@@ -94,6 +94,34 @@ img{
   cursor: pointer;
 
 }
+.right__left{
+  cursor: pointer;
+
+}
+.right__left::after{
+  content: "";
+  position: absolute;
+  right: 0;
+  margin-top:50em;
+  margin-right: 8em;
+  width: 20px;
+  height: 20px;
+  border-left: 4px solid black;
+  border-bottom: 4px solid black;
+  transform: rotate(-135deg);
+}
+.right__left::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  margin-top:50em;
+  margin-left: 8em;
+  width: 20px;
+  height: 20px;
+  border-left: 4px solid black;
+  border-bottom: 4px solid black;
+  transform: rotate( 50deg);
+}
 @media screen and (max-width: 768px){
   .write__diary-text{
     display: flex;
