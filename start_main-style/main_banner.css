@@ -4,7 +4,7 @@
   position: relative;
   height: 50vh;
   width: 100vw;
-  background-image: url(./images/beach.jpg);
+  background-image: url(../images/beach.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,7 +22,7 @@
   border:none;
   overflow: hidden;
   margin-left: 6em; margin-top: 8em;
-  background-image: url(./images/profile.jpg);
+  background-image: url(../images/profile.jpg);
   background-position: center;
   background-size: cover;
   margin-right: 10em;
