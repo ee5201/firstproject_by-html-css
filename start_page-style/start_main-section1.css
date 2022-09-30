@@ -9,7 +9,7 @@
 .main__section-img{
   display: flex;
   height: 50vh;
-  background-image: url(./../images/jeshoots-com-9n1USijYJZ4-unsplash.jpg);
+  background-image: url(.././images/jeshoots-com-9n1USijYJZ4-unsplash.jpg);
   background-size: cover;
   background-position: center;
   scroll-snap-align: start;
