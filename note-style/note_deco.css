@@ -50,13 +50,10 @@ img{
 .select-item-right:first-child{
   margin-left: 2.7em;
 }
-.write__diary{
+.img__note{
+  display: flex;
+  position: absolute;
   width: 100vw;
-  height: 200vh;
-  background-image: url(.././images/kelly-sikkema-iiaUVel-cJE-unsplash.jpg);
-  background-repeat: no-repeat;
-  background-position:top;
-  background-size: cover;
 }
 .write__diary-text{
   display: flex;
